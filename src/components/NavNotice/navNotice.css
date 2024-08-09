@@ -1,0 +1,124 @@
+/* NavNotice.css */
+
+.nav-item {
+  position: relative;
+}
+
+.nav-link {
+  color: #495057;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nav-icon {
+  font-size: 2rem;
+  margin-right: 5px;
+}
+
+.badge-number {
+  position: absolute;
+  top: 15px;
+  right: 5px;
+  font-size: 0.95rem;
+  padding: 0.25em 0.5em;
+  border-radius: 50%;
+}
+
+.dropdown-menu {
+  min-width: 300px;
+  padding: 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 5px;
+}
+
+.dropdown-header {
+  padding: 10px 15px;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-header .badge {
+  font-size: 0.75rem;
+}
+
+.dropdown-divider {
+  margin: 0;
+}
+
+.notification-item {
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
+
+.notification-item i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.notification-item h4 {
+  margin: 0;
+  font-size: 1rem;
+}
+
+.notification-item p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #6c757d;
+}
+
+.notification-item .text-warning {
+  color: #ffc107;
+}
+
+.notification-item .text-danger {
+  color: #dc3545;
+}
+
+.notification-item .text-success {
+  color: #28a745;
+}
+
+.notification-item .text-primary {
+  color: #007bff;
+}
+
+
+.dropdown-menu.messages {
+  max-height: 50vh; 
+  overflow-y: auto; 
+}
+
+
+.dropdown-menu.messages .message-item {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-menu.messages .message-item img {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px;
+}
+
+.dropdown-menu.messages .dropdown-footer {
+  text-align: center;
+}
+.header.dark-mode, .sidebar.dark-mode, .main.dark-mode, .footer.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
