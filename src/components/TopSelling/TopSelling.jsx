@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import "./topSelling.css";
+import "./TopSelling.css";
 import axios from "axios";
 import CardFilter from "../CardFilter/CardFilter";
 import TopSellingItem from "../TopSellingItem/TopSellingItem";

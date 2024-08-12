@@ -1,4 +1,4 @@
-import "./recentActivityItem.css";
+import "./RecentActivityItem.css";
 
 function RecentActivityItem({ reacentAct }) {
   return (

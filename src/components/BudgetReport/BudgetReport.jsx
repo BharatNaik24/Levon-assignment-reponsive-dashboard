@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./budgetReport.css";
+import "./BudgetReport.css";
 import CardFilter from "../CardFilter/CardFilter";
 import BudgetChart from "../BudgetChart/BudgetChart";
 

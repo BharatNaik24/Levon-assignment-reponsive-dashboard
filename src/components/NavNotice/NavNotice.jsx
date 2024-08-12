@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import "./navNotice.css";
+import "./NavNotice.css";
 
 function NavMessage() {
   const [messages, setMessages] = useState([]);

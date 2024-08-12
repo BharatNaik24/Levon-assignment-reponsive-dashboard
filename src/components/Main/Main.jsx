@@ -1,6 +1,6 @@
 import Dashboard from "../Dashboard/Dashboard";
 import PageTitle from "../PageTitle/PageTitle";
-import "./main.css";
+import "./Main.css";
 
 function Main() {
   return (

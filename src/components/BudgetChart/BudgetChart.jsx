@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import * as echarts from "echarts";
-import "./budgetChart.css";
+import "./BudgetChart.css";
 
 function BudgetChart() {
   useEffect(() => {

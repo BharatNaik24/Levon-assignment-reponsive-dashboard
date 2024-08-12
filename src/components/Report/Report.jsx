@@ -1,4 +1,5 @@
-import "./report.css";
+import "./Report.css";
+
 import CardFilter from "../CardFilter/CardFilter";
 import { useState } from "react";
 import ReportCharts from "../ReportCharts/ReportCharts";

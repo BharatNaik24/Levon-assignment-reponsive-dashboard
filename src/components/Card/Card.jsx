@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CardFilter from "../CardFilter/CardFilter";
-import "./card.css";
+import "./Card.css";
 
 function Card({ card }) {
   const [filter, setFilter] = useState("Today");

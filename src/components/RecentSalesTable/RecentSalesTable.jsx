@@ -1,4 +1,4 @@
-import "./recentSalesTable.css";
+import "./RecentSalesTable.css";
 
 // Function to handle status and return corresponding badge class
 const handleStatus = (status) => {

@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import "./customers.css";
+import "./Customers.css";
+
 // const URL = "https://fake-json-api.mock.beeceptor.com/customers";
 function Customers() {
   return (

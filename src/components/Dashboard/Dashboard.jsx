@@ -1,5 +1,5 @@
 import axios from "axios";
-import "./dashBoard.css";
+import "./DashBoard.css";
 import { useState, useEffect } from "react";
 import Card from "../Card/Card";
 import Report from "../Report/Report";

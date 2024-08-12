@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import CardFilter from "../CardFilter/CardFilter";
 import axios from "axios";
 import RecentActivityItem from "../RecentActivityItem/RecentActivityItem";
+import "./RecentActivity.css";
 
 function RecentActivity() {
   const [reacentAct, setRecentActivity] = useState("");

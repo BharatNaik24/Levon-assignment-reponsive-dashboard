@@ -1,4 +1,4 @@
-import "./navAvatar.css";
+import "./NavAvatar.css";
 import { v4 as uuidv4 } from "uuid";
 import { useEffect, useState } from "react";
 import axios from "axios";

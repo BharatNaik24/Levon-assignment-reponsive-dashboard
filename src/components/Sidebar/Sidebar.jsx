@@ -1,4 +1,4 @@
-import "./sidebar.css";
+import "./Sidebar.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import navList from "../../data/navItem";
 

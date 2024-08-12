@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Chart from "react-apexcharts";
+import "./ReportCharts.css";
 
 function ReportCharts() {
   const [data] = useState({

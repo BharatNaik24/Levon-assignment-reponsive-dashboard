@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./pageTitle.css";
+import "./PageTitle.css";
 
 function PageTitle({ page }) {
   return (

@@ -1,4 +1,4 @@
-import React from "react";
+import "./TopSellingItem.css";
 
 function TopSellingItem({ topSell }) {
   return (

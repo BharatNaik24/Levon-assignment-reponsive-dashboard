@@ -2,7 +2,7 @@ import DarkModeToggle from "../DarkModeToggle/DarkModeToggle";
 import NavAvatar from "../NavAvatar/NavAvatar";
 import NavMessage from "../NavMessage/NavMessage";
 import NavNotice from "../NavNotice/NavNotice";
-import "./navbar.css";
+import "./Navbar.css";
 
 function Navbar() {
   return (

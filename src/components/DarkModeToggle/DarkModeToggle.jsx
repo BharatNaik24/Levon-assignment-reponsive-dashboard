@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "remixicon/fonts/remixicon.css";
+import "./Darkmode.css";
 
 function DarkModeToggle() {
   const [isDarkMode, setIsDarkMode] = useState(

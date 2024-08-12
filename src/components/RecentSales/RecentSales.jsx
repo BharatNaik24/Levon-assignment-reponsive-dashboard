@@ -2,7 +2,8 @@ import CardFilter from "../CardFilter/CardFilter";
 import RecentSalesTable from "../RecentSalesTable/RecentSalesTable";
 import { useEffect, useState } from "react";
 import axios from "axios";
-import "./recentSales.css";
+import "./RecentSales.css";
+
 function RecentSales() {
   const [recentSale, setRecentSaleFun] = useState([]);
   const [filter, setFilter] = useState("Today");
