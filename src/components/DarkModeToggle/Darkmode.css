@@ -1,0 +1,24 @@
+/* Default light mode styles */
+body {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.header, .sidebar, .main, .footer {
+  background-color: inherit;
+  color: inherit;
+}
+
+.header.dark-mode, .sidebar.dark-mode, .main.dark-mode, .footer.dark-mode {
+  background-color: #333333;
+}
+.header.dark-mode, .sidebar.dark-mode, .main.dark-mode, .footer.dark-mode {
+  background-color: #333333;
+  color: #ffffff;
+}
