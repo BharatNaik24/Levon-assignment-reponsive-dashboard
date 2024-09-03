@@ -18,6 +18,7 @@ npm install >> npm run dev
 second terminal
 
 json-server --watch --port 4000 ./api/info.json
+NOTE: if the server is not running in the GITHUB WORK SPACE try running it in VS code for the proper results to be displayed on the screen to see the output
 
 make sure you run both the terminals without Api server running you cannot see data
 
