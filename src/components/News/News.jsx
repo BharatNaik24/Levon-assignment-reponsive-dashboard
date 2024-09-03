@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
-import "./News.css";
+
 import axios from "axios";
 import CardFilter from "../CardFilter/CardFilter";
 import NewsPostItem from "../NewsPostItem/NewsPostItem";
+import "./News.css";
 
 function News() {
   const [news, setNews] = useState([]);

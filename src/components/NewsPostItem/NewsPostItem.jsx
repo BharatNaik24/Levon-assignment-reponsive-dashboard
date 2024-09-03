@@ -1,5 +1,7 @@
 import React from "react";
 
+import "./NewsPostItem.css";
+
 function NewsPostItem({ news }) {
   return (
     <div className="post-item clearfix">

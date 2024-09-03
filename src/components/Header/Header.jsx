@@ -1,7 +1,7 @@
-import "./Header.css";
 import Logo from "../Logo/Logo";
 import Searchbar from "../SearchBar/Searchbar";
 import Navbar from "../Navbar/navbar";
+import "./Header.css";
 
 function Header() {
   return (

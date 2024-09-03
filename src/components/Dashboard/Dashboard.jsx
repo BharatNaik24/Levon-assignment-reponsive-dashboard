@@ -1,5 +1,4 @@
 import axios from "axios";
-import "./DashBoard.css";
 import { useState, useEffect } from "react";
 import Card from "../Card/Card";
 import Report from "../Report/Report";
@@ -10,6 +9,7 @@ import BudgetReport from "../BudgetReport/BudgetReport";
 import WebTraffic from "../WebTraffic/WebTraffic";
 import News from "../News/News";
 import BarChart from "../BarChart/BarChart";
+import "./DashBoard.css";
 
 function Dashboard() {
   const [cards, setCard] = useState([]);

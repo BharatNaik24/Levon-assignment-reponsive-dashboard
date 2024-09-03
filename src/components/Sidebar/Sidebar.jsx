@@ -1,6 +1,6 @@
-import "./Sidebar.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import navList from "../../data/navItem";
+import "./Sidebar.css";
 
 function Sidebar() {
   const sidebarItems = [
