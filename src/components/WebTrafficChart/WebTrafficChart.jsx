@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import * as echarts from "echarts";
 
+import "./WebTrafficChart.css";
+
 function WebTrafficChart() {
   useEffect(() => {
     const chartDom = document.querySelector("#trafficChart");

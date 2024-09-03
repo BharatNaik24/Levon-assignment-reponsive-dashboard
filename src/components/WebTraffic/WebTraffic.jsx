@@ -2,6 +2,8 @@ import { useState } from "react";
 import CardFilter from "../CardFilter/CardFilter";
 import WebTrafficChart from "../WebTrafficChart/WebTrafficChart";
 
+import "./WebTraffic.css";
+
 function WebTraffic() {
   const [filter, setFilter] = useState("Today");
   const handleFilterChange = (filter) => {
